@@ -7,7 +7,7 @@ const app = express();
 const middlewares = jsonServer.defaults(); // Замість `create`
 
 const corsOptions = {
-    origin: ['http://localhost:3000', 'https://ilariondub.github.io', 'https://a800-78-99-54-47.ngrok-free.app'],
+    origin: ['https://ilariondub.github.io'],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     credentials: true,
 };
