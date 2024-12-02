@@ -2,7 +2,7 @@ let posts = [];
 let users = [];
 let currentPostIndex = 0;
 let loggedInUser = null;
-const BASE_URL = 'https://ilariondub.github.io/V2.4/'; // Актуальний URL
+const BASE_URL = 'https://ilariondub.github.io/V2.5/'; // Актуальний URL
 
 let users1 = JSON.parse(localStorage.getItem("users1")) || [
     { name: "Admin", email: "admin@gmail.com", password: "Admin123", role: "admin" }
